@@ -4,16 +4,16 @@ from resume_builder import Resume, Section, SectionEntry, ContactInfo, ConcatTex
 
 resume = Resume(
     contact_info=ContactInfo(
-        name="Koushik Krishnan",
+        name="Manit Aggarwal",
         details=[
-            "(111) 111-1111",
-            "my@email.com",
-            LinkText("koushik.bearblog.dev", "https://koushik.bearblog.dev"),
+            "(96500)15218",
+            "manitaggarwal@gmail.com",
+            LinkText("manitaggarwal.com", "https://manitaggarwal.com"),
             LinkText(
-                "linkedin.com/in/koushikkrishnan",
-                "https://www.linkedin.com/in/koushikkrishnan/",
+                "linkedin.com/in/manitaggarwal",
+                "https://www.linkedin.com/in/manitaggarwal/",
             ),
-            LinkText("github.com/koek67", "https://www.github.com/koek67"),
+            LinkText("github.com/manitaggarwal", "https://www.github.com/manitaggarwal"),
         ],
         tag_line="Making software as reliable as the sunrise.",
     ),
@@ -170,11 +170,11 @@ resume = Resume(
                         [
                             ConcatText(
                                 UnderlinedText("Languages:"),
-                                " Python, Golang, C/C++, JavaScript, C#, Powershell, Zig",
+                                " Java, Python, Angular",
                             ),
                             ConcatText(
                                 UnderlinedText("Tools:"),
-                                " Kubernetes, PostgreSQL, Linux, Windows, Azure Service Fabric, Distributed Databases, Storage Engines, Docker",
+                                " Kubernetes, PostgreSQL, Linux, Docker, OpenShift",
                             ),
                         ]
                     )
